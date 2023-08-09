@@ -1,0 +1,496 @@
+*{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.Hero{
+    display: flex;
+    flex-direction: row;
+     padding: 225px 200px 15px 200px;
+     height: 100vh;
+     /* z-index: 2; */
+     
+}
+.Heroright{
+    margin: 20px;
+}
+.Heroright>img{
+    padding: 10px;
+}
+.Heroright>h1{
+    color: #A2FF86;
+    font-weight: 600;
+     line-height: 40px;
+}
+.Heroright>p{
+    margin: 20px 0 20px 0;
+}
+.Heroright>button{
+    width: 500px;
+    height: 70px;
+    background-color: #bcd330;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Heroright>button:hover{
+     width: 505px;
+    height: 73px;
+}
+.Heroleft{
+    margin-left: 20px;
+}
+.Heroleft>iframe{
+    border: white;
+    border-radius: 10px;
+}
+.heroleftdiv{
+    width: 500px;
+    height: 150px;
+    border: 1px white solid; 
+    /* background-color: #A2FF86 !important; */
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 30px;
+    display: inline-block;
+}
+.Heroleft>h4{
+    text-align: center;
+    background-color:#A2FF86 ;
+}
+.backimg>img{
+    position: absolute;
+    z-index: 10;
+    left: 300px;
+    top: 200px;
+    width: 500px;
+    height: 500px;
+    opacity: 10;
+    filter: blur(28px);
+    -webkit-filter: blur(28px);
+
+}
+.herobottom{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px white solid ;
+    padding: 50px;
+    margin-top: -10px;
+    margin-left: 300px;
+    /* background-color: #A2FF86; */
+}
+.bottomleft >h4{
+    margin-left: 15px;
+    font-size: medium;
+
+
+}
+.bottomleft>h1{
+    font-size: 35px;
+}
+.bottomright >h4{
+    margin-left: 15px;
+    font-size: medium;
+
+
+}
+.bottomright>h1{
+    font-size: 35px;
+}
+hr{
+    width: 300px;
+    color: #bcd330;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+.ProgramCard{
+    border: 1px white solid;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+}
+.Program-for{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 25% 25% 25% 25% ;
+    row-gap: 30px;
+    column-gap:5px;
+    padding-top: 100px;
+    padding-left: 150px;
+    
+}
+.tick{
+    padding: 20px;
+}
+.ProgramCardDetail{
+    padding: 20px;
+}
+ul{
+    line-height: 30px;
+}
+.Programhead{
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+    font-size: larger;
+}
+.DontsCard{
+    border: 1px white solid;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 450px;
+}
+.Donstcarddetail >h3{
+    line-height: 30px;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Donstcarddetail>p{
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.DontsHead{
+    text-align: center;
+    padding-top: 100px;
+}
+.testcard{
+    border: 1px white solid;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+
+}
+.testcardobave{
+    display: flex;
+    flex-direction: row;
+}
+.testcon{
+    display: grid;
+    gap: 30px;
+    column-gap: 80px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-left: 220px;
+}
+.testcardobave >img{
+    margin: 25px;
+
+}
+ .testcardabovedetail{
+    margin: 20px;
+    margin-top: 45px;
+
+ }
+.testcardbottom{
+    
+    margin-left: 20px;
+}
+.Testhead{
+    text-align: center;
+    margin: 40px;
+    margin-top: 30px;
+}
+.numberdiv{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 350px;
+}
+.numberdivcon1{
+    border-right:1px #bcd330 solid;
+    padding: 30px;
+}
+.numberdivcon2{
+    border-right:1px #bcd330 solid;
+    padding: 30px;
+}
+.numberdivcon3{
+    padding: 30px;
+}
+.numberdivcon1>h1{
+    font-size: 60px;
+    color: #A2FF86;
+}
+.numberdivcon2>h1{
+    font-size: 60px;
+    color: #A2FF86;
+}
+.numberdivcon3>h1{
+    font-size: 60px;
+    color: #A2FF86;
+}
+.numberdivcon1>p{
+    font-size: larger;
+    line-height: 30px;
+}
+.numberdivcon2>p{
+    font-size: larger;
+    line-height: 30px;
+}
+.numberdivcon3>p{
+    font-size: larger;
+    line-height: 30px;
+}
+.Numberhead{
+    text-align: center;
+    padding: 40px;
+} 
+
+ .Numberheadspan{
+    color: #A2FF86;
+ }
+ .numberquote{
+    border:2px #bcd330 dotted;
+    width: 550px;
+    padding: 20px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+ }
+ .numberquote>img{
+    border-radius: 40px;
+ }
+ .quote{
+    /* padding: 5px; */
+    margin-left: 70px;
+    font-size: 16px;
+    font-weight: 100;
+ }
+ #auther{
+    margin-left:260px ;
+    line-height: 30px;
+ }
+ .insCard{
+    display: flex;
+    flex-direction: row;
+    border: 1px white solid;
+    border-radius: 12px;
+    width: 50%;
+    margin-left: 380px;
+
+ }
+ .insCard>img{
+    margin: 20px;
+    border-radius:12px ;
+ }
+ .cardcon{
+    margin: 20px;
+    
+ }
+ .cardcon>h2{
+    margin: 0px;
+    margin-left: 20px;
+    font-weight: 300;
+ }
+ .cardcon>h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+ }
+ .cardcon>p{
+    margin: 20px;
+    color: whitesmoke;
+    font-weight: 400;
+ }
+ .Inshead{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+ }
+ .mentorcard{
+    border: 1px white solid;
+    width: 300px;
+    padding: 20px;
+    margin-left: 570px;
+    border-radius: 12px;
+    margin-top: 40px;
+ }
+ .mentorcard>img{
+    padding: 20px;
+    border-radius: 12px;
+
+ }
+ .mentorcon{
+    /* padding: 10px; */
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 300;
+ }
+ .mentorhead{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 70px;
+ }
+ .guestcardcon{
+    border: 1px white solid;
+    width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+ }
+ .guestcardcon>h4{
+    font-size: 14px;
+    margin: 10px;
+    font-weight:600;
+
+ }
+ .guestcardcon>img{
+    border-radius: 12px;
+
+ }
+ .guestcardcon>h2{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+
+ }
+ .guestcardcon>h3{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+
+ }
+ .guestcard{
+    display: grid;
+    grid-template-columns:  25% 25% 25%;
+    /* grid-template-rows: repeat(20%); */
+    gap: 30px;
+    column-gap: 70px;
+    padding: 20px;
+    margin-left: 200px;
+ }
+ #guestbuttom{
+     margin-left: 750px;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+ }
+ #guesthr{
+    margin-left: 650px;
+ }
+ .Guesthead{
+    text-align: center;
+    padding: 20px;
+ }
+#extrapic{
+    height: 400px;
+    width: 800px;
+    border: 1px white solid;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+.extrahead{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+#extraspan{
+    color:#bcd330;
+}
+.programleft{
+    width: 500px;
+    height: 630px;
+    border: 1px white solid;
+    padding: 10px;
+    margin-left: 300px;
+    border-radius: 12px;
+}
+.tickcon{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+ 
+.tickcon>h3{
+    font-size: 19px;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.programleft>h1{
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.programleft>p{
+    padding: 10px;
+    padding-left: 10px;
+   
+}
+#progbuttom{
+    width: 400px;
+    height: 70px;
+    background-color: #bcd330;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin-left: 40px;
+
+}
+.righttickcon{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.programbody{
+    display: flex;
+    flex-direction: row;
+}
+.programright{
+    padding: 30px;
+    padding-left: 100px;
+}
+.righttickcon>p{
+    padding-left: 10px;
+}
+.rightproghead >h1{
+    color: #bcd330;
+
+}
+.programhead{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.footer{
+    text-align: center;
+    padding: 59px;
+}
+.timelineHead{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.heroleftdiv{
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+.heroleftdiv>span{
+    color: #A2FF86;
+}
